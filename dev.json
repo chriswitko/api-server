@@ -1,0 +1,17 @@
+[{
+  "name": "API_DEV",
+  "script": "./src/index.js",
+  "args": "['--dev']",
+  "ignoreWatch": ["[\\/\\\\]\\./", "node_modules"],
+  "instances": 1,
+  "exec_mode": "worker",
+  "max_memory_restart": "512M",
+  "source_map_support": false,
+  "error_file": "logs/api_dev_error.log",
+  "out_file": "logs/api_dev_output.log",
+  "merge_logs": true,
+  "env": {
+    "NODE_ENV": "development",
+    "PORT": "3000"
+  }
+}]
