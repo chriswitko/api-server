@@ -11,7 +11,7 @@
 # NPM
 $ npm install
 
-# or with Yarn
+# or using yarn
 $ yarn
 ```
 
