@@ -19,6 +19,7 @@ module.exports = (router, config) => {
   })
 
   // The order of the middlewares can be changes, depends what's more important
+  // You can easily enable/disable middlewares by uncomment/comment lines below
 
   // Auth Bearer middleware
   router.use((req, res, next) => bearer(config, req, res, next))
